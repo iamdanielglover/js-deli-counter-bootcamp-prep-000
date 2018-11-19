@@ -17,7 +17,7 @@ function currentLine(katzDeliLine) {
   }
   var katzDeliLineNamesAndNumbers = [];
   for(var i = 0; i < katzDeliLine.length; i++) {
-    katzDeliLineNamesAndNumbers.push("[i+1] + [i++]")
+    katzDeliLineNamesAndNumbers.push(i+1 + '.')
   }
 }
 
